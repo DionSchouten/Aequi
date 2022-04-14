@@ -5,24 +5,135 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: 'Source Serif Pro', serif;
+	
 }
-
-/* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #115923;
 }
 
-/* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #FFFFFF;
 }
 
+.nav-words:hover {
+	background-color: #DADADA;
+}
+
+.black {
+	color: black;
+}
+
+/* header buttons */
+
+.btn1 {
+	background-color: #78D66F;
+	margin: 5px;
+}
+
+.btn1:hover {
+	background-color: #ACE5A6;	
+}
+
+
+.btn3 {
+	color: white;
+	background-color: #115923;
+}
+
+.btn3:hover {
+	background-color: #177C30;
+}
+
+.action {
+   color: #696969;
+}
+
+.brand-identity {
+	max-height: 750px;
+}
+
+.brand-identity {
+	max-height: 750px;
+}
+
+.persona {
+ max-height: 750px;
+}
+
+
+/* contact form */
+.info {
+	margin: 8px;
+}
+
+
+/* sign in sheet */
+.landing {
+	padding-top: 25px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 10px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom:-1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 3px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn4{
+	color: white;
+	background-color: #115923;
+}
+
+.btn4:hover {
+	background-color: #288C44;
+	color: white;
+}
+
+.social {
+	padding-left: 25%;
+}
+
+
 /* Effect on social media buttons */
+footer {
+	background-color: #EED6AE;
+	font-size:  14px;
+	max-height: 200px;
+}
+
 
 footer a:hover {
-	opacity: .5;
+	opacity: .5;	
+}
+
+.information {
+   margin-bottom: 15px;
+}
+
+
+.info1 {
+	margin-top: -10px;
 }
